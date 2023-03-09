@@ -13,8 +13,9 @@ export default function Router() {
             <Route path={'/'} element={<Home />} />
             <Route path={'/write'} element={<Write />} />
             <Route path={'/contact'} element={<Contact />} />
-            <Route path={'/article/:id'} element={<Article />} />
+            <Route path={'/article/:title'} element={<Article />} />
             <Route path={'*'} element={<Error />} />
+            <Route path={'/error-article'} element={<Error />} />
         </Routes>
     </main>
   )
