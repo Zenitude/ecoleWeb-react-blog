@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import { useState, useContext } from 'react';
 import { PostsContext } from '../../utils/context/context';
 import { FormContainer, Container, FormLabel, FormInput, FormMessage, FormButton } from './Form.style';
 

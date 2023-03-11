@@ -1,4 +1,3 @@
-import React from 'react';
 import { ErrorContainer, ErrorParagraph, ErrorLink } from './Error.style';
 import { ReactComponent as SVG404 } from '../../assets/404.svg';
 

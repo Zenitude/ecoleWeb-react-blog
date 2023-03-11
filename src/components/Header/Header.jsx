@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 import { CiMenuBurger } from "react-icons/ci";
 import { HeaderContainer, Navigation, NavigationLink, BurgerMenu } from './Header.style';
 import useDimension from '../../utils/hooks/useDimension';

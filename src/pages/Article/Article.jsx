@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { ArticleContainer, ArticleTitle, ArticleBody } from './Article.style';
 import useDimension from '../../utils/hooks/useDimension';

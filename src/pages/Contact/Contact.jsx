@@ -1,4 +1,3 @@
-import React from 'react';
 import { ContactContainer, ContactTitle } from './Contact.style';
 
 export default function Contact() {
